@@ -44,3 +44,105 @@
         display:flex;
         align-items: center;
 }
+
+/*box3*/
+.nav-search{
+        display: flex;
+        justify-content:space-evenly ;
+        width: 620px;
+        height:40px;
+        border-radius: 4px;
+        border:2px solid transparent;
+}
+.search-select{
+        background-color: #f3f3f3;
+        width: 50px;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border:none;
+}
+
+.search-input{
+        width: 100%;
+        font-size:1rem;
+        border:none;
+        }
+
+.search-icon{
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        background-color: #febd68;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        color:#0f1111
+}
+.nav-search:hover{
+        border: 2px orange;
+}
+
+/* box4*/
+span{
+        font-size: 0.7rem;
+}
+.nav-second{
+        font-size: 0.85rem;
+        font-weight: 700;
+}
+
+.nav-cart i{
+     font-size: 30px; 
+       
+}
+.nav-cart {
+        font-size: 1rem;
+        font-weight: 700; 
+        display: flex;  
+   }
+
+   .panel{
+        height: 40px;
+        background-color: #222f3d;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+   }
+   .panel-ops p{
+        display: inline;
+        margin-left:15px;
+
+   }
+   .panel-ops{
+        width:70%;
+        font-size:0.85rem;
+   }
+   .panel-deals{
+        font-size:0.9rem;
+        font-weight:700;
+   }
+
+   .hero-section{
+        background-image: url("hero-section1.jpeg");
+        background-size: cover;
+        height: 600px;
+        display:flex;
+        justify-content: center;
+   }
+
+    .hero-msg{
+     background-color: white;   
+     color: black;
+     height:40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size:0.85rem;
+   }
+
+   .hero-msg a{
+       color:#007185; 
+   }
