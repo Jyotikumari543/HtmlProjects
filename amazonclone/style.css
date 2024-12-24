@@ -1,6 +1,8 @@
 *{
         margin:0;
-        font-family: Arial;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
         border:border-box;/*if we */
 }
 
@@ -10,6 +12,8 @@
         color:white;
         display:flex;
         align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
 }
 
 .nav-logo{
@@ -18,7 +22,7 @@
 }
 
 .logo{
-        background-image: url("amazonlogo.png");
+        background-image: url("amazon.jpeg");
         background-size: cover;       
         height:50px;
         width: 100px;
@@ -126,7 +130,7 @@ span{
    }
 
    .hero-section{
-        background-image: url("hero-section1.jpeg");
+        background-image: url("herosection1.jpg");
         background-size: cover;
         height: 380px;
         display:flex;
@@ -156,6 +160,7 @@ span{
         flex-wrap: wrap;
         justify-content: space-evenly;
         background-color: #e2e7e6;
+        padding: 20px 10px;
    }
 
    .box{
@@ -164,7 +169,12 @@ span{
         width: 23%;
         background-color: white;
         padding: 20px 0px 15px;
+        margin-bottom: 20px;
    }
+   .box:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+ }
    .box-img{
         height:300px;
         background-size:cover;
@@ -199,13 +209,18 @@ span{
         color: white;
         height: 300px;
         display:flex;
-        justify-content:space-evenly;
+        justify-content:space-around;
    }
+   .foot-panel2 ul a:hover {
+     color: #febd69;
+ }
 
    .foot-panel4{
         background-color: #0f1111;
         color: white;
         height: 100px;
+        padding: 10px 0;
+        font-size: 0.8rem;
    }
 
    ul{
@@ -243,5 +258,4 @@ span{
         font-size:0.7rem;
         text-align: center;
    }
-
 
